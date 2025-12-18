@@ -40,10 +40,6 @@ ENV/
 
 # Output files
 output/
-*.png
-*.pdf
-*.svg
-!README_images/*.png
 
 # Data files
 *.csv
