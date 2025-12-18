@@ -1,0 +1,19 @@
+schema_version: 1
+meta:
+  projeto: "Dosador de Sementes"
+  autor: "José Gabriel"
+units:
+  length: "mm"    # mm em toda a mecânica
+  speed: "km/h"   # velocidade de plantio
+  angle: "deg"    # entradas de θ que você usar
+mechanics:
+  crank_radius_mm: 84.01    # r
+  rod_length_mm: 210.0      # L
+  offset_h_mm: 347.46       # h (referência vertical)
+simulation:
+  theta_range_deg: [0, 360]
+  n_theta: 10000
+  # políticas de sweep:
+  range_policy: "linspace"   # linspace | step
+output:
+  results_dir: "resultados"

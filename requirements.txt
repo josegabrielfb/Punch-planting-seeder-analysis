@@ -1,0 +1,23 @@
+# Sistema de semeadura por puncionamento - Dependências
+# =====================================
+
+# Computação científica
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Visualização
+matplotlib>=3.4.0
+
+# Processamento de dados
+pandas>=1.3.0
+
+# Configuração
+pyyaml>=5.4.0
+
+# Processamento de texto
+unidecode>=1.3.0
+
+# Opcional: Para mapas coropléticos (dados IBGE)
+# Descomente as linhas abaixo se quiser gerar mapas
+geopandas>=0.10.0
+geobr>=0.1.0

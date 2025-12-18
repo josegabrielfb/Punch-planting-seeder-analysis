@@ -1,0 +1,42 @@
+crops:
+  - name: "soja"
+    row_spacing_m:
+      options: [0.45, 0.50]
+    plant_density_per_hectare: { min: 250000, max: 400000, step: 25000 }
+    planting_speed_kmh:        { min: 5.0,   max: 7.0,    step: 0.5 }
+    germination_rate:          { min: 0.85,  max: 0.95,   step: 0.01 }
+
+  - name: "milho"
+    row_spacing_m:
+      options: [0.45, 0.50, 0.90]
+    plant_density_per_hectare: { min: 50000, max: 70000,  step: 5000 }
+    planting_speed_kmh:        { min: 5.0,   max: 10.0,   step: 0.5 }
+    germination_rate:          { min: 0.90,  max: 0.98,   step: 0.01 }
+
+  - name: "sorgo"
+    row_spacing_m:
+      options: [0.40, 0.50, 0.70]
+    plant_density_per_hectare: { min: 140000, max: 200000, step: 5000 }
+    planting_speed_kmh:        { min: 5.0,    max: 7.0,    step: 0.5 }
+    germination_rate:          { min: 0.80,   max: 0.95,   step: 0.01 }
+
+  - name: "feijao"
+    row_spacing_m:
+      options: [0.50]
+    plant_density_per_hectare: { min: 250000, max: 400000, step: 5000 }
+    planting_speed_kmh:        { min: 4.0,    max: 6.0,    step: 0.5 }
+    germination_rate:          { min: 0.85,   max: 0.95,   step: 0.01 }
+
+  - name: "algodao"
+    row_spacing_m:
+      options: [0.76, 0.90]
+    plant_density_per_hectare: { min: 100000, max: 180000, step: 5000 }
+    planting_speed_kmh:        { min: 4.0,    max: 6.0,    step: 0.5 }
+    germination_rate:          { min: 0.75,   max: 0.90,   step: 0.01 }
+
+  - name: "girassol"
+    row_spacing_m:
+      options: [0.70, 0.80, 0.90]
+    plant_density_per_hectare: { min: 40000, max: 60000, step: 5000 }
+    planting_speed_kmh:        { min: 4.0,   max: 6.0,   step: 0.5 }
+    germination_rate:          { min: 0.80,  max: 0.95,  step: 0.01 }
