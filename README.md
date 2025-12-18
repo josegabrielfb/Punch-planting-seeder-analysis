@@ -14,10 +14,6 @@ Sistema completo de análise cinemática, cálculo de torque e visualização de
 
 > 📖 **Para detalhes teóricos completos, leia o TCC:** [_Projeto de um sistema de semeadura por puncionamento_](https://repositorio.ufsc.br/handle/123456789/270766)
 
-<p align="center">
-  <img src="img/cad_linhacompleta.png" alt="Descrição da imagem" width="300">
-</p>
-
 ---
 
 ## 📑 Índice - Navegação Rápida
